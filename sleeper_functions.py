@@ -26,7 +26,7 @@ def get_NFL_week():
     #Get the current date
     today = datetime.today()
     #Set the NFL kickoff date
-    kickoff = datetime(2023, 9, 7)
+    kickoff = datetime(2025, 9, 4)
     #Calculate the number of days between today and kickoff
     days_since_kickoff = (today - kickoff).days
     #Calculate the number of weeks since kickoff
@@ -276,7 +276,7 @@ def run_sleeper_weekly(week=None):
 
 ### GPT Summary Generation ###
 
-instruction_prompt = "You are an AI Fantasy Football commissioner tasked with writing a weekly summary to your league mates recapping the latest week of our Dynasty league\n\nI will provide you a table of the weekly matchups, which includes the owners, their matchup_ids (owners with the same matchup IDs are opponents for the week), their players and what they scored, and a standings table with everyone's records. \nRead through scores table and each of the matchups and performances first to understand how each team has done this week and then go through the standings to see how they've been doing for the season. Once you've reviewed all of this information, write an email recapping the performances of teams and players. In particular, make sure to roast of the team with lowest total points). \nMake the tone funny, light-hearted and slightly sarcastic"
+instruction_prompt = "You are an AI Fantasy Football commissioner tasked with writing a weekly summary to your league mates recapping the latest week of our Dynasty league\n\nI will provide you a table of the weekly matchups, which includes the owners, their matchup_ids (owners with the same matchup IDs are opponents for the week), their players and what they scored, and a standings table with everyone's records. \nRead through scores table and each of the matchups and performances first to understand how each team has done this week and then go through the standings to see how they've been doing for the season. Once you've reviewed all of this information, write an email recapping the performances of each of the teams and its players. (In particular, make sure to roast the team with the lowest weekly total points). \nMake the tone funny, light-hearted and slightly sarcastic \nRandomly choose one of the following TV personalities to write from the perspective of either Al Michaels, Mike Tirico, Joe Buck, Terry Bradshaw, Howie Long, Michael Strahan, Bill Cowher, Matt Ryan, Cris Collinsworth, Randy Moss, or Richard Sherman"
 
 def get_completion(instruction_prompt, input_prompt, model = "gpt-4"):
         response = openai.ChatCompletion.create(
