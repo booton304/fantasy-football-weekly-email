@@ -1,6 +1,6 @@
 {
     "sleeper": {
-        "league_id": "xxxx",
+        "league_id": "1181819510366093312",
         "owner_dict": {
             "owner_id": "owner_name",
             "owner_id2": "owner_name",
@@ -26,11 +26,11 @@
         }
     },
     "openai": {
-        "api_key": "xxx"
+        "api_key": "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"
     },
     "gmail": {
-        "GMAIL_USER": "xx",
-        "GMAIL_PW": "xx"
+        "GMAIL_USER": "booton304@gmail.com",
+        "GMAIL_PW": "aeir ljoe uvwm rxyj"
     },
     "emails": {
         "espn_email_dict": {
