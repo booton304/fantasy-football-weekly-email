@@ -2,9 +2,18 @@
     "sleeper": {
         "league_id": "1181819510366093312",
         "owner_dict": {
-            "owner_id": "owner_name",
-            "owner_id2": "owner_name",
-            "owner_id3": "owner_name"
+            "465023468333690880": "Heath",
+            "465178538568314880": "Ritter",
+            "469271566111207424": "Burns",
+            "471785970241368064": "Cody",
+            "472285933727641600": "Jacob",
+            "472455789307490304": "Tommy Guns",
+            "472877605121421312": "Mitch",
+            "473163961286520832": "Jon",
+            "601232057120645120": "Patrick",
+            "602552032624185344": "Tyler",
+            "605653510083665920": "Ben",
+            "733354050103443456": "Jessica"
         },
         "division_dict": {
             "owner_name1": 2,
@@ -39,9 +48,7 @@
                 "owner_name2": "email"
             },
         "sleeper_email_dict": {
-            "owner_name": "email",
-            "owner_name1": "email",
-            "owner_name2": "email"
+            "Heath": "booton304@gmail.com"
             }
         }
 }
